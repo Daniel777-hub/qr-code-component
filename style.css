@@ -19,19 +19,23 @@
     align-items: center;
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
-    background-color: lightblue; 
+    background-color: hsl(220, 45%, 89%); 
   }
   
   .container {
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     padding: 20px; 
     text-align: center; 
-    border-radius: 25px
+    border-radius: 28px;
+      width: 60%;
+      height: auto; 
+      margin: auto; 
   }
   
   .attribution {
     text-align: center; 
     margin-top: 20px; 
+    font-size: 1rem;
   }
   
   .container img {
@@ -40,7 +44,13 @@
     border-radius: 25px
   }
 
+  
+  container h1 {
+    font-size: 1rem;
+  }
+
   .container h2 {
-    color: lightgray ;
+    color: hsl(212, 45%, 89%) ;
     margin-top: -5px;
+    font-size: 1rem;
   }
