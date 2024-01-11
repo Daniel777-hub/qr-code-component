@@ -1,11 +1,11 @@
 @media (min-width: 1440px) {
-    .minhaDiv {
+    .container {
       width: 1440px;
     }
   }
   
   @media (max-width: 375px) {
-    .minhaDiv {
+    .container {
       width: 375px;
     }
   }
